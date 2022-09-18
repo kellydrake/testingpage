@@ -35,3 +35,6 @@ html, body {
     justify-content: flex-end;
     text-decoration: underline;
   }
+ a{
+    color:#0000B9;
+  }

@@ -1,0 +1,37 @@
+html, body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    margin:1rem;
+    padding:0;
+  }
+  
+  .ol-container{
+    column-count: 2;
+    column-gap: 3rem;
+  }
+  .ol-container li{
+    text-decoration: underline;
+    font-size: 1em;
+  }
+  @media screen and (max-width: 540px){
+    .ol-container{
+        column-count: revert;
+      }
+  }
+  .active{
+    color: #8f8484 !important;
+  }
+  .nav-list-style{
+    list-style-type: none;
+    padding-left:0;
+    font-weight: 600;
+    font-size: 1em;
+  }
+    .active{
+    text-decoration: underline;
+  }
+  .back-top{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: underline;
+  }

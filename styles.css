@@ -12,6 +12,7 @@ html, body {
   .ol-container li{
     text-decoration: underline;
     font-size: 1em;
+    color: rgb(6, 6, 86);
   }
   @media screen and (max-width: 540px){
     .ol-container{
@@ -35,6 +36,6 @@ html, body {
     justify-content: flex-end;
     text-decoration: underline;
   }
- a{
+  a{
     color:#0000B9;
   }

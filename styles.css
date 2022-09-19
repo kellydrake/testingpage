@@ -13,6 +13,7 @@ html, body {
     text-decoration: underline;
     font-size: 1em;
     color: rgb(6, 6, 86);
+    padding-bottom: 4px;
   }
   @media screen and (max-width: 540px){
     .ol-container{
@@ -22,13 +23,16 @@ html, body {
   .active{
     color: #605a5a !important;
   }
-  .nav-list-style{
-    list-style-type: none;
+  nav .nav-list-style{
+    list-style: none;
     padding-left:0;
     font-weight: 600;
     font-size: 1em;
   }
-    .active{
+  .nav-link{
+    padding: 5px 0 5px 0;
+  }
+  .active{
     text-decoration: underline;
   }
   .back-top{
@@ -38,4 +42,10 @@ html, body {
   }
   a{
     color:#0000B9;
+  }
+ .line-separater{
+    border: none;
+    height: 2px;
+    color:#605a5a;
+    background-color: #b2b2b2;
   }
